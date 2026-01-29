@@ -28,7 +28,7 @@ function mosTodas() {
   todas.forEach((t) => {
     const elem = document.createElement("li");
     
-    // Texto
+
     const texto = document.createElement("span");
     texto.textContent = t.nom;
     if (t.comp) {
@@ -90,7 +90,7 @@ btn.addEventListener("click", () => {
   const texto = inp.value.trim();
 
   if (texto === "") {
-    mosMsg("⚠️ Escribe algo primero", true);
+    mosMsg("Escribe algo primero", true);
     return;
   }
 
