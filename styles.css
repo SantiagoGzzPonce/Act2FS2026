@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.panel {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.destacado {
+  font-weight: bold;
+  color: green;
+}
+
+.oculto {
+  display: none;
+}
+
+.mensaje-error {
+  display: block;
+  color: red;
+  margin: 8px 0;
+}
+
+/* Estilos para los botones */
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+li span {
+  flex-grow: 1;
+}
+
+button {
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
